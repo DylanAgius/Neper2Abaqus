@@ -93,7 +93,7 @@ function neper2abq(inputfile)
         %the angle of the grain with respect to the global system
         A(169:171)=deg2rad(eulera(i,:));
         %adding the centroid information in x,y,z coordinates
-        A(172:174)=deg2rad(centroid(i,:));
+        A(172:174)=centroid(i,:);
         %adding the calculated equivalent spherical diameter for each grain
         A(175)=diameq(i,1);
         %printing this information to file
