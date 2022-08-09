@@ -4,6 +4,8 @@ Create a microstructure using Neper, with the output of the microstructure forma
 
 The purpose of including the volume and seed information is to calculate the equivalent spherical diameter of each grain and the centroid location which are used by the current UMAT to determine the location of the integration point with respect to the grain boundary.
 
+The functionality has been extended thanks to [Mauro Arcidiacono](https://github.com/mauroarcidiacono) who has now extended the tool to Python making it much easier for open source users to take advantage of this tool.
+
 *Please note, this has only currently been created with the most current UMAT in mind.  I will add more functionality as I progress.*
 ## Creating Microstruture with Neper
 Included here is an example shell file (neper_example.sh) which can be used to create a synthetic microstructre in Neper with the following features:
